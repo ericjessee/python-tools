@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 from math import mean
 
+#COMMENTS
+
 def open_outfile_inf(data):
     csv_open = False
     count = 0
