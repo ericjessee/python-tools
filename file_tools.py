@@ -1,6 +1,16 @@
 from datetime import datetime, timedelta
 from math import mean
 
+def open_outfile_inf(data):
+    csv_open = False
+    count = 0
+    while csv_open == False:
+        try:
+            csv = open("out_{}.csv".format(count), 'x')
+            csv_open = True
+        except FileExistsError:
+            count += 1
+
 def open_outfile():
     file_isopen = False
     while not file_isopen:
