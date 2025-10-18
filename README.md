@@ -1,1 +1,1 @@
-Created this repo to store some functions that I tend to use frequently in python
+dumping ground for random useful python scripts.
